@@ -5,7 +5,7 @@ html, body {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
+    background-image: url('bunga2.jpg');
     line-height: 1.65;
     padding-bottom: 1000px;
 }
@@ -17,4 +17,24 @@ body{
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+}
+
+.sidebar-satu {
+    width: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightskyblue;
+}
+
+.kolom-utama {
+    width: 470px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar-dua {
+    width: 180px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightblue;
 }
