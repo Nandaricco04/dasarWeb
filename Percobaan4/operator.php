@@ -16,6 +16,11 @@ $hasilLebihBesar = $a > $b;
 $hasilLebihKecilSama = $a <= $b;
 $hasilLebihBesarSama = $a >= $b;
 
+$hasilAnd = $a && $b;
+$hasilOr = $a || $b;
+$hasilNotA = !$a;
+$hasilNotB = !$b;
+
 echo "Hasil Penjumlahan: $a + $b = $hasilTambah <br>";
 echo "Hasil Pengurangan: $a - $b = $hasilKurang <br>";
 echo "Hasil Perkalian: $a * $b = $hasilKali <br>";
@@ -30,3 +35,10 @@ echo "Hasil Lebih Kecil: $a < $b : " . ($hasilLebihKecil ? 'true' : 'false') . "
 echo "Hasil Lebih Besar: $a > $b : " . ($hasilLebihBesar ? 'true' : 'false') . "<br>";
 echo "Hasil Lebih Kecil Sama: $a <= $b : " . ($hasilLebihKecilSama ? 'true' : 'false') . "<br>";
 echo "Hasil Lebih Besar Sama: $a >= $b : " . ($hasilLebihBesarSama ? 'true' : 'false') . "<br>";
+echo "<br>";
+
+echo "Hasil AND: $a && $b : " . ($hasilAnd ? 'true' : 'false') . "<br>";
+echo "Hasil OR: $a || $b : " . ($hasilOr ? 'true' : 'false') . "<br>";
+echo "Hasil NOT A: !$a : " . ($hasilNotA ? 'true' : 'false') . "<br>";
+echo "Hasil NOT B: !$b : " . ($hasilNotB ? 'true' : 'false') . "<br>";
+?>
