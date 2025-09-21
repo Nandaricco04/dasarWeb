@@ -57,4 +57,13 @@ $a /= $b;
 $a %= $b;
 
 echo "Nilai a: $a <br>";
+echo "<br>";
+
+$totalKursi = 45;
+$kursiDitempati = 28;
+
+$kursiKosong = $totalKursi - $kursiDitempati;
+echo "Jumlah kursi kosong: $kursiKosong <br>";
+$persentaseKursiKosong = ($kursiKosong / $totalKursi) * 100;
+echo "Persentase kursi kosong: $persentaseKursiKosong %<br>";
 ?>
