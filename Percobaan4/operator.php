@@ -43,6 +43,13 @@ echo "Hasil NOT A: !$a : " . ($hasilNotA ? 'true' : 'false') . "<br>";
 echo "Hasil NOT B: !$b : " . ($hasilNotB ? 'true' : 'false') . "<br>";
 echo "<br>";
 
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;
+
+echo "Hasil Identik: $a === $b : " . ($hasilIdentik ? 'true' : 'false') . "<br>";
+echo "Hasil Tidak Identik: $a !== $b : " . ($hasilTidakIdentik ? 'true' : 'false') . "<br>";
+echo "<br>";
+
 $a += $b;
 $a -= $b;
 $a *= $b;
