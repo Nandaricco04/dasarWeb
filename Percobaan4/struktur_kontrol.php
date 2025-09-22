@@ -74,4 +74,18 @@ for ($i = 2; $i < count($nilaiMTKSiswa) - 2; $i++) {
 echo "<br>";
 echo "Total nilai: $total <br>";
 echo "Rata-rata nilai: " . ($total / $count) . "<br>";
+
+$hargaBarang = 120000;
+
+if ($hargaBarang > 100000) {
+    $diskon = 20 / 100 * $hargaBarang;
+} else {
+    $diskon = 0;
+}
+
+$hargaSetelahDiskon = $hargaBarang - $diskon;
+
+echo "<br>";
+echo "Harga barang sebelum diskon: Rp $hargaBarang <br>";
+echo "Harga barang setelah diskon: Rp $hargaSetelahDiskon <br>";
 ?>
