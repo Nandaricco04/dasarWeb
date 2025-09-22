@@ -88,4 +88,12 @@ $hargaSetelahDiskon = $hargaBarang - $diskon;
 echo "<br>";
 echo "Harga barang sebelum diskon: Rp $hargaBarang <br>";
 echo "Harga barang setelah diskon: Rp $hargaSetelahDiskon <br>";
+
+$poinGame = 520;
+
+echo "<br>";
+echo "Total skor pemain adalah : $poinGame <br>";
+
+$hadiahTambahan = ($poinGame > 500) ? "Ya" : "Tidak";
+echo "Apakah pemain mendapatkan hadiah tambahan? $hadiahTambahan <br>";
 ?>
