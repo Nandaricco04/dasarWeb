@@ -31,4 +31,32 @@ foreach ($daftarKaryawan as $karyawan) {
 
 echo "<br>";
 echo "Karyawan dengan pengalaman lebih dari 5 tahun: " . implode(", ", $karyawanPengalamanLimaTahun);
+echo "<br>";
+
+$daftarNilai = [
+    'Matematika' => [
+        ['Alice', 85],
+        ['Bob', 92],
+        ['Charlie', 78],
+    ],
+    'Fisika' => [
+        ['Alice', 90],
+        ['Bob', 88],
+        ['Charlie', 75],
+    ],
+    'Kimia' => [
+        ['Alice', 92],
+        ['Bob', 80],
+        ['Charlie', 85],
+    ],
+];
+
+$mataKuliah = 'Fisika';
+
+echo "<br>";
+echo "Daftar nilai mahasiswa untuk mata kuliah $mataKuliah: <br>";
+
+foreach ($daftarNilai[$mataKuliah] as $data) {
+    echo "Nama: {$data[0]}, Nilai: {$data[1]} <br>";
+}
 ?>
