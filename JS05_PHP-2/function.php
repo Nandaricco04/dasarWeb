@@ -23,4 +23,6 @@ echo "<hr>";
 
 $saya = "Nanda";
 $ucapanSalam = "Selamat Pagi";
+
+perkenalan($saya);
 ?>
