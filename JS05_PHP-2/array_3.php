@@ -23,16 +23,19 @@
                 echo "<td>" . $movie[0][1] . "</td>";
                 echo "<td>" . $movie[0][2] . "</td>";
             echo "</tr>";
+            
             echo "<tr>";
                 echo "<td>" . $movie[1][0] . "</td>";
                 echo "<td>" . $movie[1][1] . "</td>";
                 echo "<td>" . $movie[1][2] . "</td>";
             echo "</tr>";
+
             echo "<tr>";
                 echo "<td>" . $movie[2][0] . "</td>";
                 echo "<td>" . $movie[2][1] . "</td>";
                 echo "<td>" . $movie[2][2] . "</td>";
             echo "</tr>";
+
             echo "<tr>";
                 echo "<td>" . $movie[3][0] . "</td>";
                 echo "<td>" . $movie[3][1] . "</td>";
